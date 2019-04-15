@@ -1,0 +1,31 @@
+{
+  "name": "zurb-foundation-scss-webpack-example",
+  "version": "0.1.0",
+  "scripts": {
+    "webpack": "webpack -w",
+    "webpack:production": "NODE_ENV=production webpack",
+    "server": "webpack-dev-server"
+  },
+  "keywords": [
+    "Webpack",
+    "Zurb Foundation",
+    "SCSS"
+  ],
+  "author": "Peter Lamberg",
+  "license": "UNLICENSE",
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "style-loader": "^0.23.1",
+    "sass-loader": "^7.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.1",
+    "foundation-sites": "^6.5.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8",
+    "what-input": "^5.2.1"
+  }
+}

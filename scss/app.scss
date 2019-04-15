@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+// @import 'node_modules/foundation-sites/scss/settings/settings';
+@import 'foundation-sites/scss/foundation';
+//@import 'foundation-sites/foundation';
+
+// Include the foundation-everything mixin, with the flex grid:
+@include foundation-everything();
+
+// Include everything, with the old non flex grid (flex = false)
+// @include foundation-everything(false);
+
+// Uncomment this to _also_ include the old grid with the flex grid:
+// @include foundation-grid;
+
+//@import 'motion-ui';
+
