@@ -52,6 +52,14 @@ Start experimenting by changing these files
   This file is also a good place to start putting your own SCSS code.
   * [index.js](src/index.js) The "root" Javascript that imports the `app.css` above. This file also imports the Foundation Javascript components. This file is then processed by the Webpack and embeded in the generated `Index.js`. This file is also a good place to start putting your own Javascript code.
 
+## LICENSE
+
+Everything in this repo (this README, bunch of configuration and index.html) is licensed with the very liberal
+[UNLICENSE](LICENSE.txt). Feel free to use.
+
+As an exception, the file  [zurb-foundation-sample-index.html](src/zurb-foundation-sample-index.html) belongs to the
+creators of Zurb Foundation, so consider deleting it after you clone this repository.
+  
 ## TODO
 
   * Support for separate CSS resource in production mode to avoid [FOUC](https://en.wikipedia.org/wiki/Flash_of_unstyled_content)
