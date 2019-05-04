@@ -5,8 +5,8 @@ I put this example together after I failed to find an example project my self. H
 
 Here is a quick rundown of features in this example project:
 
- * [Zurb Foundation](https://foundation.zurb.com/) installed with Npm to  to `node_modules
- * Zurb Foundation [SCSS](https://sass-lang.com/guide) processed with [Webpack Sass Loader plugin](https://github.com/webpack-contrib/sass-loader#sass-loader)`
+ * [Zurb Foundation](https://foundation.zurb.com/) installed with Npm to  to `node_modules`
+ * Zurb Foundation [SCSS](https://sass-lang.com/guide) processed with [Webpack Sass Loader plugin](https://github.com/webpack-contrib/sass-loader#sass-loader)
  * SCSS based layout development on top of the Foundation
  * [Webpack with auto reloading](https://webpack.js.org/configuration/dev-server/) for development
 
