@@ -54,7 +54,7 @@ Start experimenting by changing these files
 
 ## LICENSE
 
-Everything in this repo (this README, bunch of configuration and index.html) is licensed with the very liberal
+Everything in this repo (this README, bunch of configuration and index.html, but see exception below) is licensed with the very liberal
 [UNLICENSE](LICENSE.txt). Feel free to use.
 
 As an exception, the file  [zurb-foundation-sample-index.html](src/zurb-foundation-sample-index.html) belongs to the
