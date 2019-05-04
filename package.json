@@ -23,9 +23,9 @@
     "foundation-sites": "^6.5.3"
   },
   "devDependencies": {
-    "webpack": "^4.0.1",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1",
     "what-input": "^5.2.1"
   }
 }
