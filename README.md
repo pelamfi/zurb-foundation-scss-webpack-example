@@ -10,13 +10,8 @@ Here is a quick rundown of features in this example project:
  * SCSS based layout development on top of the Foundation
  * [Webpack with auto reloading](https://webpack.js.org/configuration/dev-server/) for development
 
-## Interesting files
-Start experimenting by changing these files
-  * [zurb-foundation-sample-index.html](src/zurb-foundation-sample-index.html) An official example page that I borrowed to this project from the Zurb Foundation standalone distribution
-  * [index.html](src/index.html) A small html file using the Foundation that I whipped together my self
-  * [app.scss](scss/app.scss) The "root" SCSS that then imports and includes stuff from the Zurb Foundation. This file can be used for fine grained control on what parts of the Foundation to use (or just take everything). This file is then processed by the Webpack and embeded in the generated `Index.js`.
-  This file is also a good place to start putting your own SCSS code.
-  * [index.js](src/index.js) The "root" Javascript that imports the `app.css` above. This file also imports the Foundation Javascript components. This file is then processed by the Webpack and embeded in the generated `Index.js`. This file is also a good place to start putting your own Javascript code.
+## Prebuilt demo
+[Here is a prebuilt demo index.html](https://pelam.fi/zurb-foundation-scss-webpack-example/)
 
 ## Quick start webpack server
 This way the page reloads when you edit the sources!
@@ -48,3 +43,15 @@ Then open `build/index.html` in a browser
 ```sh
 npm run webpack:production
 ```
+
+## Interesting files
+Start experimenting by changing these files
+  * [zurb-foundation-sample-index.html](src/zurb-foundation-sample-index.html) An official example page that I borrowed to this project from the Zurb Foundation standalone distribution
+  * [index.html](src/index.html) A small html file using the Foundation that I whipped together my self
+  * [app.scss](scss/app.scss) The "root" SCSS that then imports and includes stuff from the Zurb Foundation. This file can be used for fine grained control on what parts of the Foundation to use (or just take everything). This file is then processed by the Webpack and embeded in the generated `Index.js`.
+  This file is also a good place to start putting your own SCSS code.
+  * [index.js](src/index.js) The "root" Javascript that imports the `app.css` above. This file also imports the Foundation Javascript components. This file is then processed by the Webpack and embeded in the generated `Index.js`. This file is also a good place to start putting your own Javascript code.
+
+## TODO
+
+  * Support for separate CSS resource in production mode to avoid [FOUC](https://en.wikipedia.org/wiki/Flash_of_unstyled_content)
