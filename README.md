@@ -20,7 +20,7 @@ This way the page reloads when you edit the sources!
 npm install
 
 # start the  webpack server
-npm run server 
+npm run start
 ```
 
 Then open http://localhost:8000.

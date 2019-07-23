@@ -4,7 +4,7 @@
   "scripts": {
     "webpack": "webpack -w",
     "webpack:production": "NODE_ENV=production webpack",
-    "server": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "keywords": [
     "Webpack",
