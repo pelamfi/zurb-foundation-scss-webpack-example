@@ -25,15 +25,17 @@ module.exports = {
     rules: [{
       test: /\.scss$/,
       use: [{
-          loader: "style-loader"
+        loader: "style-loader"
       }, {
-          loader: "css-loader"
+        loader: "css-loader"
       }, {
-          loader: "sass-loader",
-          options: {
-              includePaths: ["./scss", "./node_modules"]
+        loader: "sass-loader",
+        options: {
+          sassOptions: {
+            includePaths: ["./scss", "./node_modules"]
           }
-      }]      
+        }
+      }]
     }]
   },
   devServer: {
